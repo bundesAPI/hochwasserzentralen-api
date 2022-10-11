@@ -32,7 +32,7 @@ class VersionSchema(schemas.StrSchema):
     class MetaOapg:
         regex = [
             {
-                "pattern": r"([12]\d{3}(0[1-9]|1[0-2])(0[1-9]|[12]\d|3[01]))",  # noqa: E501
+                "pattern": r"([12][0-9]{3}(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01]))",  # noqa: E501
             }
         ]
 
